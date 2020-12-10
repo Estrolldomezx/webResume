@@ -69,17 +69,23 @@
     border-radius: 200px;
   }
   #name{
-      color: #f1f1f1;
-      line-height: 15px;
+    color: #f1f1f1;
+    line-height: 15px;
   }
   #position{
-      color: aquamarine;
-      padding-top: ;
+    color: aquamarine;
   }
   hr{
-      border-left: 0;
-      width: 35vw;
+    border-left: 0;
+    width: 35vw;
   }
   hr.style {
 	background-color: #fff;
-}
+  }
+  .line{
+    text-align: center;
+    height: 10px;
+    width: 1px; /* ความหนาของเส้น */
+    background-color: aquamarine; /* สีของเส้น */
+    display:block;
+  }
